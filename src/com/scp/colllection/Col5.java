@@ -14,7 +14,7 @@ public class Col5 {
 		// TODO Auto-generated method stub
           HashMap hp = new HashMap();
           hp.put("SG", 15);
-          hp.put("SSG",16);
+          hp.put("SG",16);
           System.out.println(hp);
                    
           Collection c = hp.values();

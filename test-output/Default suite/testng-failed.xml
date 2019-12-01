@@ -3,12 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="test4.pck.com.Sam1">
+      <class name="com.scp.ENUM.Demo4">
         <methods>
-          <include name="f3"/>
-          <include name="f4"/>
+          <include name="abc"/>
+          <include name="def"/>
         </methods>
-      </class> <!-- test4.pck.com.Sam1 -->
+      </class> <!-- com.scp.ENUM.Demo4 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

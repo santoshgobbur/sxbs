@@ -12,16 +12,21 @@ public class Sam1 {
 	 int returnValue(){
 		
 		try{
-		System.out.println(10/0);
-		return 15;
+		   System.out.println(10/0);
+		   return 15;
 		}
+		
 		catch(ArithmeticException e){
+			System.out.println(10/2);
 			return 1;
+        }
 	
-		}
-	finally {
-	         //return 16;
+		finally {
+		     System.out.println("finally block executed");
+	         return 16;
+	      //   System.out.println("fgi"); ---- CTE : Unreachable code
 		  } 
+	//	System.out.println("gi"); ---- CTE : Unreachable code
 	
 	}
 }

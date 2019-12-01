@@ -1,13 +1,8 @@
 package com.scp.constr;
 
-public class S3 implements A {
-
-	public static void main(String[] args) {
-		int x =16;
-		System.out.println(x);
-	}
+public class S3 {
 	
-}
-interface A{
-	int x=15;
+	public static void breakf(){
+		System.out.println("hehf");
+	}
 }

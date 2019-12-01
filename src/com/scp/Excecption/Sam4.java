@@ -13,7 +13,7 @@ public class Sam4 {
 	}
     
 	void f1()  {
-		throw new ArithmeticException("fkngfjg");
+		//throw new ArithmeticException("Hi");
 	}
 	void f2() {
 		f1();
@@ -21,9 +21,14 @@ public class Sam4 {
 	void f3(){
 		try{
 			f2();
+			//System.out.println(10/0);
+			
 		}
-		catch (Exception E){
-			System.out.println("gjhj");
+		finally{
+			System.out.println("hi");
 		}
+	/*	catch (Exception E){
+			System.out.println("Hello");
+		}*/
 	}
 }
